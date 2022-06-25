@@ -1,0 +1,145 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+body {
+font-family: 'Montserrat', sans-serif;
+margin: 0;
+}
+a {
+text-decoration: none;
+}
+h1, h2, h3 {
+padding-top: 10px;
+font-weight: bold;
+text-align: center;
+text-transform: uppercase;
+}
+p {
+    font-weight: bold;
+    text-align: center;
+    justify-content: center;
+}
+.container-personas{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 30px;
+    background-color: #fff;
+    color: #444;
+    margin: 40px;
+}
+
+@media (min-width: 300px) and (max-width: 650px) {
+    .container-personas{
+    grid-template-columns: auto;
+    }
+  }
+.card {
+    /* display: flex; */
+    background-color: #f7f7f7;
+    box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.2);
+    border: 10px solid white;
+    color: black;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+
+}
+.card-content {
+    font-size: 16px;
+}
+
+.imagen_avatar {
+    height: 150px;
+    width: 150px;
+}
+
+
+.grid-footer {
+    display: grid;
+    column-gap: 50px;
+    grid-template-columns: auto auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgba(155, 155, 155, 0.2);
+}
+.grid-item {
+font-size: 20px;
+padding: 10px;
+text-align: center;
+}
+.bottom-footer {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.copyright {
+    margin: 0;
+    text-align: center;
+    font-size: 16px;
+    color: white;
+    font-weight: 500;
+    padding: 10px;
+}
+.grid-modal {
+    display: grid;
+    column-gap: 20px;
+    grid-template-columns: auto auto;
+    padding: 10px;
+
+}
+
+.modal-contenido{
+    background-color:white;
+    width:550px;
+    padding: 10px 20px;
+    margin: 14% auto;
+    position: relative;
+  }
+
+  
+@media (min-width: 300px) and (max-width: 650px) {
+    .grid-modal{
+    grid-template-columns: auto;
+    padding: 0px;
+    }
+    .modal-contenido{
+        width:250px;
+        padding:20px;
+        margin: 35% auto;
+    }
+  }
+  .modal{
+    background-color: rgba(0,0,0,.8);
+    position:fixed;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+    opacity:0;
+    pointer-events:none;
+    transition: all 1s;
+  }
+  .imagen_avatar_modal {
+    height: 200px;
+    width: 200px;
+    box-shadow: 2px 2px 3px 3px rgba(0, 0, 0, 0.2);
+}
+  #Modal1:target,
+  #Modal2:target,
+  #Modal3:target,
+  #Modal4:target,
+  #Modal5:target,
+  #Modal6:target,
+  #Modal7:target,
+  #Modal8:target,
+  #Modal9:target,
+  #Modal10:target,
+  #Modal11:target,
+  #Modal12:target
+  {
+    opacity:1;
+    pointer-events:auto;
+  }
+
+.cerrar {
+    display: flex;
+    justify-content: right;
+}

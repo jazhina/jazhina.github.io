@@ -23,3 +23,6 @@ envías sobre el correo en que te llegó el reto.<br>
 ● Se debe poder acceder a la pagina desde un link público.<br>
 ● Cualquier consulta no dudes en contactar a través del mismo correo electrónico.
 
+![Image text](/screenshot/version_desktop.png); <br>
+![Image text](/screenshot/desktop_modal.png); <br>
+![Image text](/screenshot/movil_modal.png);
